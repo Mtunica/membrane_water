@@ -1,0 +1,7 @@
+#!/bin/bash
+
+START=$(date +%s)
+vmd -python -e trajectory_to_xyz.py -dispdev none > traj2xyz.log
+END=$(date +%s)
+DIFF=$(( $END - $START ))
+echo temps: $DIFF

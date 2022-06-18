@@ -1,0 +1,38 @@
+! TRAVIS input file
+! Created with TRAVIS version compiled at Mar 22 2020 16:01:08
+! Source code version: Jan 01 2019
+! Input file written at Fri Jun  3 19:49:11 2022.
+! Do you want to assign atom data to them (y/n)? [yes] 
+y
+! Automatically rename all atoms to corresponding elements (recommended) (y/n)? [yes] 
+y
+! Use the advanced mode until the analysis selection menu (y/n)? [no] 
+y
+! Use periodic boundary conditions (0=no, x, y, z, xy, xz, xyz)? [xyz]
+xyz
+! Use time-dependent cell vector (NPT ensemble) (y/n)? [no] 
+
+! Is the simulation cell non-orthorhombic (cell angles other than 90 deg) (y/n)? [no] 
+
+! Are the 3 cell vectors of the same size (yes/no)? [yes] 
+
+! Enter length of cell vector in pm: 
+
+! There is no default value. Enter a real number.
+! Enter length of cell vector in pm: 
+12
+! The density of your box seems to be very high. Continue (y) or change input (n)? [n] 
+n
+! Are the 3 cell vectors of the same size (yes/no)? [yes] 
+1
+! Invalid input. Enter "y" or "n".
+! Are the 3 cell vectors of the same size (yes/no)? [yes] 
+
+! Enter length of cell vector in pm: 
+1
+! The density of your box seems to be very high. Continue (y) or change input (n)? [n] 
+y
+! Should the periodic box be multiplied (y/n)? [no] 
+n
+! Execute molecule recognition for which time step (-1 = disable)? [0] 
+0
